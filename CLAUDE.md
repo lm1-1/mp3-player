@@ -30,10 +30,10 @@
 | 开发计划 | `docs/dev-plan.md` | 分阶段计划与验收标准 |
 | 开发日志 | `devlogs/YYYY-MM-DD.md` | 每日开发记录 |
 
-## 项目代码目录
+## 项目代码目录（GitHub Pages 根目录部署）
 
 ```
-mp3-player/
+/ (仓库根目录)
 ├── index.html          # 主页面
 ├── css/
 │   └── style.css       # 样式
@@ -42,7 +42,9 @@ mp3-player/
 │   └── player.js       # 播放器逻辑
 ├── sw.js               # Service Worker
 ├── manifest.json       # PWA 清单
-└── icons/              # 应用图标
+├── icons/              # 应用图标
+├── docs/               # 项目标准文档
+└── devlogs/            # 开发日志
 ```
 
 ## 关键设计决策
